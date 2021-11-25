@@ -1,9 +1,15 @@
-let minValue = parseInt(prompt('Минимальное знание числа для игры','0'));
-let maxValue = parseInt(prompt('Максимальное знание числа для игры','100'));
+let minValue;
+let maxValue;
+let answerNumber;
+let orderNumber;
+let gameRun;
+
+minValue = parseInt(prompt('Минимальное знание числа для игры','0'));
+maxValue = parseInt(prompt('Максимальное знание числа для игры','100'));
 alert(`Загадайте любое целое число от ${minValue} до ${maxValue}, а я его угадаю`);
-let answerNumber  = Math.floor((minValue + maxValue) / 2);
-let orderNumber = 1;
-let gameRun = true;
+answerNumber  = Math.floor((minValue + maxValue) / 2);
+orderNumber = 1;
+gameRun = true;
 
 const orderNumberField = document.getElementById('orderNumberField');
 const answerField = document.getElementById('answerField');
