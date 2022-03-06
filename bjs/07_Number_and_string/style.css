@@ -6,4 +6,18 @@
 .input-window {
     text-align: end;
     font-size: x-large;
+    background: #c5c7c6;
+    padding-top: 15px;
+    border-radius: 3px;
+}
+
+.card-border {}
+
+.col { margin: 1px; display: flex; flex-basis: 0; flex-grow: 2;}
+
+#history {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-left: -205px;
 }
