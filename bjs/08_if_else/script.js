@@ -1,4 +1,3 @@
-
 let initialInput = 1
 
 const orderNumberField = document.getElementById('orderNumberField');
